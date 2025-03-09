@@ -1,0 +1,114 @@
+nav{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5px;
+    height: 100px;
+    background-color: #313a44;
+}
+
+nav .Logo{
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    width: 40%;
+    height: 100%;
+}
+
+nav .List li{
+    list-style: none;
+}
+
+nav .List a{
+    display: block;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav .List a:hover{
+    background-color: #db8010;
+}
+
+nav .List{
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.activa{
+    background-color: #04aa6d;
+}
+
+
+
+h2{
+    font-size: 45px;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista ul{
+    list-style: none;
+    width: 300%;
+}
+
+.lista a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #04aa6d;
+    border-radius: 20px;
+    padding: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista{
+  padding-top: 30px;
+  margin-left: -40px;
+}
+
+.lista a:hover{
+    background-color: #db8010;
+}
+
+.lista ul{
+    list-style: none;
+    width: 300%;
+}
+
+.ul2{
+    padding-top: 60px;
+}
+
+.ul3{
+    padding-top: 60px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    top: 450px;
+    width: 100%;
+    font-size: 25px;
+    padding-left: -140px;
+    padding-right: -9px;
+}
